@@ -50,7 +50,7 @@ Spark was used for distributed processing.
 - **Recommendations:** Used a self-join on the exploded `items` array to calculate "Bought X also bought Y" co-occurrences.
 - **SQL Analytics:** Used Spark SQL to join transactions and products to calculate revenue by category.
 
-*[Insert Screenshot of Spark SQL output here]*
+![Spark SQL Output](spark_sql_screenshot.png)
 
 ## 7. Integration: E-Commerce Funnel
 The funnel analysis joined session data with transaction data.
